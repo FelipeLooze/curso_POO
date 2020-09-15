@@ -27,6 +27,8 @@ public class MeuControle {
     public String getCliente(@PathVariable int codigo){
         if(codigo == 7)
             return "SIIIIII";
+        else if(codigo == 404)
+            return "Bugueeeeeei!!";
         else
             return "Vai algum dia retornar o " + codigo + " cliente (Versão 2.0)";
     }
