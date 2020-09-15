@@ -18,12 +18,12 @@ public class MeuControle {
         return "Hello Exercicio";
     }
 
-    @GetMapping("/cliente")
+    @GetMapping("/clientes")
     public String getcliente(){
         return "Vai algum dia retornar do BD todos os clientes";
     }
 
-    @GetMapping("/cliente/{codigo}")
+    @GetMapping("/clientes/{codigo}")
     public String getCliente(@PathVariable int codigo){
         if(codigo == 7)
             return "SIIIIII";
