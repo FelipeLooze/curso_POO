@@ -28,7 +28,7 @@ public class MeuControle {
         if(codigo == 7)
             return "SIIIIII";
         else
-            return "Vai algum dia retornar o " + codigo + " cliente";
+            return "Vai algum dia retornar o " + codigo + " cliente (Versão 2.0)";
     }
 
 
